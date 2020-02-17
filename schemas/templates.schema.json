@@ -1,0 +1,114 @@
+{
+    "$id": "https://example.com/address.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Page and Component Template",
+    "description": "Templating for Magnolia CMS https://documentation.magnolia-cms.com/display/DOCS/Template+definition",
+    "type": "object",
+    "properties": {
+      "areas": {
+        "type": "object",
+        "properties": {
+          "availableComponents": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              }
+            }
+          },
+          "autoGeneration": {
+            "type": "boolean"
+          },
+          "class": {
+            "type": "string"
+          },
+          "createAreaNode": {
+            "type": "boolean"
+          },  
+          "description": {
+            "type": "string"
+          },
+          "dialog": {
+            "type": "string"
+          },
+          "extends": {
+            "string": "string"
+          },
+          "fragmentDefinition": {
+            "type": "object",
+            "properties": {
+              "class": {
+                "type": "string"
+              },
+              "dynamic": {
+                "type": "boolean"
+              },
+              "mechanism": {
+                "type": "string"
+              },
+              "ttl": {
+                "type": "number"
+              }
+            }
+          },
+          "modelClass": {
+            "type": "string"
+          },
+          "parameters": {
+            "type": "object"
+          },
+          "optional": {
+            "type": "boolean"
+          },
+          "renderType": {
+            "type": "string"
+          },
+          "subtype": {
+            "type": "string"
+          },
+          "templateScript": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      },
+      "class": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "dialog": {
+        "type": "string"
+      },
+      "extends": {
+        "string": "string"
+      },
+      "modelClass": {
+        "type": "string"
+      },
+      "parameters": {
+        "type": "object"
+      },
+      "renderType": {
+        "type": "string"
+      },
+      "subtype": {
+        "type": "string"
+      },
+      "templateScript": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "visible": {
+        "type": "boolean"
+      }
+    }
+  }

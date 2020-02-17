@@ -1,7 +1,7 @@
 {
 	"name": "vscode-extension",
 	"displayName": "vscode-extension",
-	"description": "VSCode extensions for Magnolia CMS.",
+	"description": "VSCode extension for Magnolia CMS.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.42.0"
